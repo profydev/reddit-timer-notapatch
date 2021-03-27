@@ -1,9 +1,10 @@
 import React from 'react';
+import { Normalize } from 'styled-normalize';
 
 function App() {
   return (
     <div>
-      App Placeholder
+      <Normalize />
     </div>
   );
 }
