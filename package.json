@@ -10,6 +10,7 @@
     "react-dom": "^17.0.1",
     "react-scripts": "^4.0.1",
     "styled-normalize": "^8.0.7",
+    "styled-components": "^5.2.1",
     "typeface-bitter": "^1.1.13",
     "typeface-montserrat": "^1.1.13"
   },
