@@ -1,13 +1,15 @@
 import React from 'react';
+import { ThemeProvider } from 'styled-components';
 import { Normalize } from 'styled-normalize';
 import GlobalStyle from './globalStyles';
+import theme from './theme';
 
 function App() {
   return (
-    <div>
+    <ThemeProvider theme={theme}>
       <Normalize />
       <GlobalStyle />
-    </div>
+    </ThemeProvider>
   );
 }
 
